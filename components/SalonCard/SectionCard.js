@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet, View, Image } from 'react-native'
 
 class SectionCard extends Component {
   render() {
@@ -15,6 +15,12 @@ class SectionCard extends Component {
 const styles = StyleSheet.create({
   card: {
     flex: 1,
-    backgroundColor: '#FFFFFF'
+    backgroundColor: '#FFFFFF',
+    marigin: 10,
+    marginTop: 100,
+    marginBottom: 100,
+    borderWidth: 1,
+    borderColor: 'lightgrey',
+    borderRadius: 8, 
   }
 })

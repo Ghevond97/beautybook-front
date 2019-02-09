@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, Image } from 'react-native';
+import { StyleSheet, Image } from 'react-native';
 
 import LinearGradient from 'react-native-linear-gradient';
 
@@ -10,7 +10,7 @@ class LaunchScreen extends Component {
       <LinearGradient colors={['#9F83D8', '#1CF4F1']} style={styles.linearGradient}>
       <Image 
         source={require('../../assets/images/logo.png')}
-      />
+      /> 
       </LinearGradient>
     )
   }
