@@ -10,6 +10,7 @@
     "prettier": "^1.16.3",
     "react": "^16.6.3",
     "react-native": "0.58.3",
+    "react-native-linear-gradient": "^2.5.3",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1"
   },
